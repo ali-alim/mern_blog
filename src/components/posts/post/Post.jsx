@@ -5,8 +5,7 @@ function Post() {
       <div className="post">
         <img
           className="postImg"
-          src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
-          alt="post_image"
+          src="https://miro.medium.com/max/700/1*r0B6sCMzMp6ymF2tRheWbA.jpeg"
         />
         <div className="postInfo">
           <div className="postCats">
