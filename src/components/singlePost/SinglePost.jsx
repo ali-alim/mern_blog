@@ -11,7 +11,7 @@ function SinglePost() {
           className="singlePostImg"
         />
         <h1 className="singlePostTitle">
-          Lorem ipsum dolor sit amet.
+          Hiding article with webkit
           <div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
             <i className="singlePostIcon far fa-trash-alt"></i>
@@ -19,7 +19,7 @@ function SinglePost() {
         </h1>
         <div className="singlePostInfo">
           <span className="singlePostAuthor">
-            Author: <b>Safak</b>
+            Author: <b>ALI M.</b>
           </span>
           <span className="singlePostDate">1 hour ago</span>
         </div>

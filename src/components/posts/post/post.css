@@ -53,6 +53,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+}
+
+.postDesc > div p{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(202, 199, 199);
 }
