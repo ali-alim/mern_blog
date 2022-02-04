@@ -8,17 +8,20 @@ import Setting from "./pages/settings/Setting";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import { Routes, Route, Link } from "react-router-dom";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <div>
-
+      <TopBar />
+      
       <Routes>
+       
         <Route exact path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/Setting" element={<Setting />} />
-
+        <Route path="/setting" element={<Setting />} />
+        <Route path="/post/:postId" element={<SinglePost />} />
       </Routes>
       {/* <Home /> */}
       {/* <Single /> */}
@@ -27,6 +30,7 @@ function App() {
       {/* <Settings /> */}
       {/* <Login /> */}
       {/* <Register /> */}
+      <Sidebar />
     </div>
   );
 }
