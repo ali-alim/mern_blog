@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./post.css";
 
 function Post() {
@@ -12,9 +13,11 @@ function Post() {
           <span className="postCat">HTML</span>
           <span className="postCat">CSS</span>
         </div>
-        <span className="postTitle">
+      <Link to="/post/:postId" className="link" style={{textAlign:"center"}}>
+      <span className="postTitle">
           Hiding the part of text with webkit CSS properties
         </span>
+      </Link>
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
