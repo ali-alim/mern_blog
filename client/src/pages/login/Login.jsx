@@ -33,14 +33,14 @@ export default function Login() {
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>
         <input className="loginInput" type="text" placeholder="Enter your username..."
-        useRef={userRef}
+        ref={userRef}
         />
         <label>Password</label>
         <input className="loginInput" type="password" placeholder="enter your password..." 
-        useRef={passwordRef}/>
-        <button className="loginButton">Login</button>
+        ref={passwordRef}/>
+        <button className="loginButton" type="submit">Login</button>
       </form>
-      <button className="loginRegisterButton" type="submit">
+      <button className="loginRegisterButton">
         <Link to="/register" className="link">Register</Link>
       </button>
     </div>
