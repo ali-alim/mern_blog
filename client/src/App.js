@@ -9,17 +9,18 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import { Routes, Route, Link } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
+import { useContext } from "react";
+import { Context } from "./context/Context";
+
 
 function App() {
 
-  const user = false;
+  const {user} = useContext(Context);
 
   return (
     <div>
       <TopBar />
-      
-      <Routes>
-       
+      <Routes>       
         <Route exact path="/" element={<Home />} />
         <Route path="/mern_blog" element={<Home />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
