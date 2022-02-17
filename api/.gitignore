@@ -21,7 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-
-    // "dev":"(start npm run client && start npm run api) || (start npm run client && start npm run api)",
