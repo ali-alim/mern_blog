@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.dce8f0ce.css",
-    "main.js": "/static/js/main.e31fe50a.js",
-    "index.html": "/index.html",
-    "main.dce8f0ce.css.map": "/static/css/main.dce8f0ce.css.map",
-    "main.e31fe50a.js.map": "/static/js/main.e31fe50a.js.map"
+    "main.css": "/mern_blog/static/css/main.dce8f0ce.css",
+    "main.js": "/mern_blog/static/js/main.e31fe50a.js",
+    "index.html": "/mern_blog/index.html",
+    "main.dce8f0ce.css.map": "/mern_blog/static/css/main.dce8f0ce.css.map",
+    "main.e31fe50a.js.map": "/mern_blog/static/js/main.e31fe50a.js.map"
   },
   "entrypoints": [
     "static/css/main.dce8f0ce.css",
