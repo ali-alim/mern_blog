@@ -24,8 +24,8 @@ function Post({ post }) {
       </div>
       <p className="postDesc">
         {post.desc}
-        <br />
-        <div>
+        {
+        /* <br />
           <p>
             <span>overflow</span>: hidden;
           </p>
@@ -40,8 +40,8 @@ function Post({ post }) {
           </p>
           <p>
             <span>-webkit-box-orient</span>:vertical;
-          </p>
-        </div>
+          </p> */}
+<br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
         excepturi nisi dolorum debitis quis, totam ex cupiditate! Porro odio,
         omnis dolores qui reprehenderit quod ipsam enim tempore minima, beatae
