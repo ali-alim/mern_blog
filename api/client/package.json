@@ -2,7 +2,7 @@
   "name": "mern_blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ali-alim.github.io/mern_blog",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -40,7 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/api/",
   "devDependencies": {
     "concurrently": "^7.0.0",
     "gh-pages": "^3.2.3",
