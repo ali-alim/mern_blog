@@ -7,7 +7,9 @@ const userRoute = require("./routes/users")
 const postRoute = require("./routes/posts")
 const categoryRoute = require("./routes/categories")
 const multer = require("multer")
-const path = require("path")
+const path = require("path");
+const PORT = process.env.PORT || 5000;
+
 
 dotenv.config();
 
@@ -46,10 +48,12 @@ app.use("/api/categories", categoryRoute);
 //FOR DEPLOYING ON HEROKU
 app.use(express.static(path.join(__dirname, "/client/build")));
 
-app.get('*', (req,res)=>{
-  res.sendFile(path.join(__dirname,'/client/build','index.html'));
-})
+app.get("*", function (req, res) {
+  // res.sendFile(path.join(__dirname, "/client/build", "index.html"));
+  res.sendFile(path.join(__dirname, "/client/build/index.html"));
+});
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(PORT, () => {
   console.log("Backend is running");
 });
+
