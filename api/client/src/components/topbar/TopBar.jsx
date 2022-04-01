@@ -26,12 +26,12 @@ function TopBar() {
           </li>
           <li className="topListItem">
             <Link to="/" className="link">
-              ABOUT
+              <span style={{textDecoration:'line-through'}}> ABOUT </span>
             </Link>
           </li>
           <li className="topListItem">
             <Link to="/" className="link">
-              CONTACT
+              <span style={{textDecoration:'line-through'}}> CONTACT </span>
             </Link>
           </li>
           <li className="topListItem">
