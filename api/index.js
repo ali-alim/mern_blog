@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 dotenv.config();
 
 app.use(express.json());
-app.use("/images",express.static(path.join(__dirname, "images")));
+app.use("/api",express.static(path.join(__dirname, "images")));
 
 mongoose
   .connect(process.env.MONGO_URI, {
